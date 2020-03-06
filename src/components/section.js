@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import Wave from './Wave'
 
 const SectionGroup = styled.div`
-    margin: 300px 0;
+    margin: 100px 0;
     background: rgba(255,235,239);
     height: 900px;;
     position: relative;

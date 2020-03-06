@@ -10,8 +10,6 @@ const IndexPage = () => (
       <div className="HeroGroup"> 
         <h1>hieu doan</h1>
         <p>UX Designer and Creativity Enthusiast!</p>
-        <Link to="/page-2/">view my work</Link>
-        {/* This SVG is not mine, this code belongs to MengTo */}
         <Wave />
       </div>
     </div>
@@ -32,8 +30,6 @@ const IndexPage = () => (
         title = "Clamor 2019"
         text = "Class Project"
         image = {require('../images/clamor.jpg')} />
-
-      {/* Utilize Card tag for multiple projects */}
       </div>
     </div>
     <Section

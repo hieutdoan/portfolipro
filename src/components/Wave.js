@@ -1,5 +1,6 @@
 import React from 'react'
 
+{/* This SVG is not mine, this code belongs to MengTo */}
 const Wave = () => 
 (
 <svg width="100%" height="172" fill="none" xmlns="http://www.w3.org/2000/svg">
