@@ -1,6 +1,6 @@
 .Card {
-    width: 300px;
-    height: 225px;
+    width: 500px;
+    height: 350px;
     position: relative; 
     overflow: hidden;
     border-radius: 20px;
@@ -23,16 +23,16 @@
 
 .Card h3 {
     color: white;
-    font-size: 30px;
+    font-size: 55px;
     margin: 20px 0 0 20px;
-    width: 190px
+    width: 500px
 }
 
 .Card p {
     color: rgba(255, 255, 255, 0.8);
     text-transform: uppercase;
     font-weight: 600;
-    font-size: 18px; 
+    font-size: 25px; 
     align-self: end;
     margin: 0 0 20px 20px; 
 }
