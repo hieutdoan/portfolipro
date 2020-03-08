@@ -22,7 +22,7 @@ const IndexPage = () => (
         image = {require('../images/lapis.jpg')} />
 
       <Card
-        title = "TikTok"
+        title = "TikTok Site Redesign"
         text = "Personal Project"
         image = {require('../images/tiktok.jpg')} />
 
