@@ -34,19 +34,11 @@ const IndexPage = () => (
     </div>
     <Section
     title = "about me"
-    text = "Mewtwo Strikes Back Pidgeotto Poliwag Caterpie Tangela Town Map Pansage. 
-    Anim id est laborum Rotom Jigglypuff Smoochum Palpitoad Dragon Body Slam. 
-    Meowth, thats right Latias Sunkern Cofagrigus Deerling Skuntank Chansey. 
-    Qui officia deserunt mollit Potion Plusle quis nostrud exercitation Slugma Pokeball Cresselia. 
-    Electric Scyther Giovanni youre not wearing shorts Pansear Minun Dark.
-    Teleport Viridian City in voluptate velit esse cillum dolore eu fugiat nulla pariatur Noctowl Emolga Latios Beldum. 
-    Water Chatot Dusclops Dunsparce Celebi Sawk Great Ball. Sed do eiusmod tempor incididunt Poliwag Great Ball Ditto Leech Life
-    Arbok Dusknoir. Sand-Attack Emolga Volcano Badge Bronzor Stoutland Mienshao Froslass. 
-    Blizzard Glitch City Rapidash Darumaka Elekid Glaceon Victreebel.
-    Duis aute irure dolor in reprehenderit in voluptate ullamco laboris nisi Braviary Teleport Serperior Serperior 
-    Escape Rope. Sand-Attack Tentacruel Purugly Gabite Sandile Torchic Slash.
-     Teleport Rampardos Carvanha Chandelure Fire Amoonguss Blissey. Leaf Green Blaziken Vanillish 
-     Abomasnow Zangoose Rampardos Whirlipede. Strength Poke Flute Reuniclus Jynx Slowpoke searching far and wide Wartortle."
+    text = "Hi there~ I'm Hieu and I'm currently a student at the University of Washington Bothell majoring in Interactive Media Design while minoring in Gender, Women, and Sexuality Studies.
+    I'm also a student representative for my cohort and collaborate with faculty and other student representatives to help create the best experiences for students in the IMD program. 
+    Outside of school, I love being crafty and creative~ I'm currenty teaching myself (and others in my cohort) how to embroider!
+    Ever since I discovered UX Design, I've become passionate about weaving psychology, creative design, and storytelling to solve real-world problems and create captivating experiences. 
+    Enthusiastic about taking on my next creative challenge, I strive to utilize my broad range of skills to create beautiful and better experiences for people around the world."
     />
   </div>
 )
