@@ -3,6 +3,8 @@ import Link from 'gatsby-link'
 import Card from '../components/Card'
 import Section from '../components/section'
 import Wave from '../components/Wave'
+import SectionTwo from '../components/sectiontwo'
+
 
 const IndexPage = () => (
   <div>
@@ -40,6 +42,13 @@ const IndexPage = () => (
     Ever since I discovered UX Design, I've become passionate about weaving psychology, creative design, and storytelling to solve real-world problems and create captivating experiences. 
     Enthusiastic about taking on my next creative challenge, I strive to utilize my broad range of skills to create beautiful and better experiences for people around the world."
     />
+    <div>
+      <SectionTwo
+      id="sectiontwo"
+      title ="contact"
+      text = "contact me blah blah blah here here and here" 
+      />
+    </div>
   </div>
 )
 

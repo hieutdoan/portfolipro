@@ -1,5 +1,6 @@
 import React from 'react'
-import Link from 'gatsby-link'
+/* This implements smooth scrolling using the link tag */
+import {Link, animateScroll as scroll} from 'react-scroll'
 import './Header.css'
 
 class Header extends React.Component { 
@@ -35,7 +36,7 @@ class Header extends React.Component {
         <div className='HeaderGroup'> 
           <Link to="/" >hieu d.</Link>
           <Link>my work</Link>
-          <Link>get in touch</Link>
+          <Link to="sectiontwo" smooth={true} duration={1250}>get in touch</Link>
           <Link>resume</Link>
         </div>
       </div>
