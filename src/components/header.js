@@ -17,7 +17,7 @@ class Header extends React.Component {
     window.addEventListener('scroll', this.handleScroll)
   }
 
-  // event listener, has the page scrolled by over 50px, if yes set state hasScrolled to true, else false 
+  // event listener, has the page scrolled by over 50px? if yes set state hasScrolled to true, else false 
   handleScroll = (event) => {
     const scrollTop = window.pageYOffset
 
@@ -34,10 +34,10 @@ class Header extends React.Component {
     // this asks if the page has scrolled, if yes give it classname header and headerscrolled, else header
       <div className={this.state.hasScrolled ? 'Header HeaderScrolled' : 'Header'}>
         <div className='HeaderGroup'> 
-          <Link to="/" >hieu d.</Link>
-          <Link>my work</Link>
-          <Link to="sectiontwo" smooth={true} duration={1250}>get in touch</Link>
-          <Link>resume</Link>
+          <Link to="sectionone" smooth={true} duration={1250} offset={60}>about</Link> 
+          <Link to="Cards" smooth={true} duration={1250} offset={-215}>my work</Link>
+          <Link to="sectiontwo" smooth={true} duration={1250}>contact me</Link>
+          <a href="../files/hieudresume.pdf" target="_blank">resume</a>
         </div>
       </div>
     )

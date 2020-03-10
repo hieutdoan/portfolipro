@@ -5,7 +5,7 @@ import Wave from './Wave'
 
 const SectionGroup = styled.div`
     margin: 100px 0;
-    background: #e7f7f9;
+    background: #dcd0ff;
     height: 1000px;
     position: relative;
  
@@ -40,6 +40,15 @@ const SectionText = styled.p`
         font-size: 20px; 
     }
 `
+const SectionTextTwo = styled.p`
+    color: black;
+    text-align: center;
+    font-size: 24px;
+
+    @media (max-width: 800px) {
+        font-size: 20px; 
+    }
+`
 
 const WaveTop = styled.div`
     position: absolute;
@@ -63,6 +72,8 @@ const SectionTwo = props => (
         <SectionTitleGroup>
             <SectionTitle>{props.title}</SectionTitle>
             <SectionText>{props.text}</SectionText>
+            <SectionTextTwo>{props.texttwo}</SectionTextTwo>
+
         </SectionTitleGroup>
     </SectionGroup>
 )

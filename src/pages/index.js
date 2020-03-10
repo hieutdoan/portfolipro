@@ -17,24 +17,31 @@ const IndexPage = () => (
     </div>
     <div className="Cards">
       <div className="CardGroup">
-      {/* <h2>Figma</h2> */}
+      <a href="https://www.notion.so/LAPIS-c5c5934b27ad4e9faec70211e30fab2c" target="_blank">
       <Card 
         title = "LAPIS"
         text = "Class Project"
         image = {require('../images/lapis.jpg')} />
+      </a>
 
+      <a href="https://www.notion.so/TikTok-Homepage-Redesign-cdf4d9b8f5f145f39c0bff7ec54e2fb5" target="_blank">
       <Card
         title = "TikTok Site Redesign"
         text = "Personal Project"
         image = {require('../images/tiktok.jpg')} />
+      </a>
 
+      <a href="https://www.notion.so/Clamor-2019-Design-Editor-71e0f803fb2b470096ad5509f43bd316" target="_blank">
       <Card
         title = "Clamor 2019"
         text = "Class Project"
         image = {require('../images/clamor.jpg')} />
+      </a>
+
       </div>
     </div>
     <Section
+    id="sectionone"
     title = "about me"
     text = "Hi there~ I'm Hieu and I'm currently a student at the University of Washington Bothell majoring in Interactive Media Design while minoring in Gender, Women, and Sexuality Studies.
     I'm also a student representative for my cohort and collaborate with faculty and other student representatives to help create the best experiences for students in the IMD program. 
@@ -46,7 +53,8 @@ const IndexPage = () => (
       <SectionTwo
       id="sectiontwo"
       title ="contact"
-      text = "contact me blah blah blah here here and here" 
+      text = "email: hieud@uw.edu"
+      texttwo ="linkedin: www.linkedin.com/in/hieuddesigns/"
       />
     </div>
   </div>

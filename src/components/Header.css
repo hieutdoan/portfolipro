@@ -55,15 +55,15 @@
         justify-items: center;
     }
 
-    /*when the width of the page is less than 640px, then it only displays 3 links and hides the 3rd one (helps with site
+    /*when the width of the page is less than 640px, then it only displays 3 links and hides the 4th one (helps with site
     responsiveness*/
-    .Header a:nth-child(3) {
+    .Header a:nth-child(4) {
         display: none; 
     }
 }
 
-/*this makes all of the header links hover except for the first one*/
-.Header a:nth-child(n+2):hover {
+/*this makes all of the header links hover and switch colors when mouse hovers over*/
+.Header a:hover {
     background: rgba(138, 43, 226, 0.75);
     color: white;
     padding: 5px 7px;

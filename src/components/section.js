@@ -54,7 +54,8 @@ const WaveBottom = styled.div`
     bottom: -6px;
 `
 const Section = props => (
-    <SectionGroup background={props.background}>
+    <SectionGroup background={props.background}
+    id={props.id}>
         <WaveTop><Wave /></WaveTop>
         <WaveBottom><Wave /></WaveBottom>
         <br/>
