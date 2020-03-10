@@ -37,7 +37,7 @@ class Header extends React.Component {
           <Link to="sectionone" smooth={true} duration={1250} offset={60}>about</Link> 
           <Link to="Cards" smooth={true} duration={1250} offset={-215}>my work</Link>
           <Link to="sectiontwo" smooth={true} duration={1250}>contact me</Link>
-          <a href="../files/hieudresume.pdf" target="_blank">resume</a>
+          <a target="_blank" href="https://drive.google.com/file/d/1oFI5atfFdjrNf-5URiiPeSz5FAP67gtY/preview">resume</a>
         </div>
       </div>
     )
