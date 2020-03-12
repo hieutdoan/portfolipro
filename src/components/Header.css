@@ -4,6 +4,7 @@
     padding: 25px 0;
     /*leaves header on top of everything*/
     z-index: 100; 
+    /*total transition takes 0.8 seconds cubic bezier is an easing function*/
     transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1)
 }
 
@@ -31,17 +32,6 @@
     cursor: pointer;
     transition: 1s cubic-bezier(0.2, 0.8, 0.2, 1); 
 }
-
-/* style if i had buttons
-.Header button {
-    padding: 8px 20px;
-    font-size: 20px; 
-    background: #56ccf2;
-    border: none;
-    font-weight: 700;
-    border-radius: 10px;
-    outline: none;
-} */
 
 @media (max-width: 640px)
 {

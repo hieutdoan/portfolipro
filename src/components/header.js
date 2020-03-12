@@ -1,5 +1,5 @@
 import React from 'react'
-/* This implements smooth scrolling using the link tag */
+/* This implements smooth scrolling using the link tag from react-scroll*/
 import {Link, animateScroll as scroll} from 'react-scroll'
 import './Header.css'
 
