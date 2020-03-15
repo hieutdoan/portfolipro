@@ -22,9 +22,6 @@ a {
   background-color: #e7f7f9;
   height: 650px;
   position: relative; 
-  /* use this if I want to have a picture as for my background
-  background-size: cover;
-  background-position: center; */
 }
 
  /*hero is like grouping layers in figma*/
@@ -40,10 +37,15 @@ a {
   color: #8A2BE2;
   font-size: 60px;
   opacity: 0; 
+  /*can be used as shorthand for all of the settings and to set the animation name*/
   animation: HeroAnimation;
+  /* this is how long the animation will take */
   animation-duration: 3s;
+  /* start the animation after 0.1 seconds*/ 
   animation-delay: 0.1s;
+  /* style for when the animation is not playing, so the words will be displayed*/
   animation-fill-mode: forwards;
+  /*specifies the speed curve of an animation*/
   animation-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1); 
 }
 
